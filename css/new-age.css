@@ -9,14 +9,14 @@ body {
 }
 
 a {
-  color: #fdcc52;
+  color: black;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
 }
 
 a:hover, a:focus {
-  color: #fcbd20;
+  color: black;
 }
 
 hr {
@@ -67,14 +67,14 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #fdcc52;
+  color: black;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #fcbd20;
+  color: black;
 }
 
 #mainNav .navbar-toggler {
@@ -91,7 +91,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #fdcc52 !important;
+  color: black !important;
   background-color: transparent;
 }
 
@@ -106,7 +106,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: black;
 }
 
 @media (min-width: 992px) {
@@ -136,7 +136,7 @@ section h2 {
     color: #222222;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #fdcc52;
+    color: black;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
@@ -144,7 +144,7 @@ section h2 {
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: black;
   }
 }
 
@@ -154,9 +154,11 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+  background: url("../img/blackboardBackground.jpg");
 }
 
 header.masthead .header-content {
@@ -185,6 +187,8 @@ header.masthead .device-container .screen img {
     min-height: 775px;
     padding-top: 0;
     padding-bottom: 0;
+    width: 100%;
+    height: 100%;
   }
   header.masthead .header-content {
     margin-bottom: 0;
@@ -285,12 +289,12 @@ section.features .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
+  background-image: url("../img/openBook.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover !important;
 }
 
 section.cta .cta-content {
@@ -334,42 +338,11 @@ section.contact h2 i {
   color: #dd4b39;
 }
 
-section.contact ul.list-social {
-  margin-bottom: 0;
-}
-
-section.contact ul.list-social li a {
-  font-size: 40px;
-  line-height: 80px;
+section.contact .img-circle {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
   display: block;
-  width: 80px;
-  height: 80px;
-  color: white;
-  border-radius: 100%;
-}
-
-section.contact ul.list-social li.social-twitter a {
-  background-color: #1da1f2;
-}
-
-section.contact ul.list-social li.social-twitter a:hover {
-  background-color: #0d95e8;
-}
-
-section.contact ul.list-social li.social-facebook a {
-  background-color: #3b5998;
-}
-
-section.contact ul.list-social li.social-facebook a:hover {
-  background-color: #344e86;
-}
-
-section.contact ul.list-social li.social-google-plus a {
-  background-color: #dd4b39;
-}
-
-section.contact ul.list-social li.social-google-plus a:hover {
-  background-color: #d73925;
 }
 
 footer {
@@ -398,13 +371,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #f4d35e;
+  background: -webkit-linear-gradient(#f4d35e, #f2cc46);
+  background: linear-gradient(#f4d35e, #f2cc46);
 }
 
 .text-primary {
-  color: #fdcc52;
+  color: black;
 }
 
 .no-gutter > [class*='col-'] {
@@ -420,8 +393,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #fdcc52;
-  background-color: #fdcc52;
+  border-color: black;
+  background-color: black;
 }
 
 .btn {
