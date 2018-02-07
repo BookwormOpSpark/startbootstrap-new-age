@@ -8,42 +8,45 @@ section.contact {
             color: $brand-google-plus;
         }
     }
-    ul.list-social {
-        margin-bottom: 0;
-        li {
-            a {
-                font-size: 40px;
-                line-height: 80px;
-                display: block;
-                width: 80px;
-                height: 80px;
-                color: white;
-                border-radius: 100%;
-            }
-            &.social-twitter {
-                a {
-                    background-color: $brand-twitter;
-                    &:hover {
-                        background-color: darken($brand-twitter, 5%);
-                    }
-                }
-            }
-            &.social-facebook {
-                a {
-                    background-color: $brand-facebook;
-                    &:hover {
-                        background-color: darken($brand-facebook, 5%);
-                    }
-                }
-            }
-            &.social-google-plus {
-                a {
-                    background-color: $brand-google-plus;
-                    &:hover {
-                        background-color: darken($brand-google-plus, 5%);
-                    }
-                }
-            }
-        }
+    .img-circle {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        display: block;
     }
+    // ul.list-social {
+    //     margin-bottom: 0;
+    //     li {
+    //         a {
+    //             font-size: 40px;
+    //             line-height: 80px;
+    //             display: block;
+    //             width: 80px;
+    //             height: 80px;
+    //             color: white;
+    //             border-radius: 100%;
+    //         }
+    //         &.social-twitter {
+    //             a {
+    //                 &:hover {
+    //                     background-color: darken($brand-twitter, 5%);
+    //                 }
+    //             }
+    //         }
+    //         &.social-facebook {
+    //             a {
+    //                 &:hover {
+    //                     background-color: darken($brand-facebook, 5%);
+    //                 }
+    //             }
+    //         }
+    //         &.social-google-plus {
+    //             a {
+    //                 &:hover {
+    //                     background-color: darken($brand-google-plus, 5%);
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 }
